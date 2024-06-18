@@ -30,3 +30,5 @@ project_root/
 ├── main_application.py
 └── other_modules/
 └── ...
+References:
+https://chatgpt.com/share/6558808f-a438-49ae-8ec7-17ab12260ed6
