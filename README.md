@@ -8,6 +8,9 @@ Backend API development for VPP Commands and access the VPP CTL (CLI of VPP)
 
 2. https://haryachyy.wordpress.com/2020/04/17/learning-vpp-ospf-routing-protocol/
 
+3. References:
+https://chatgpt.com/share/6558808f-a438-49ae-8ec7-17ab12260ed6
+<!---
 project_root/
 │
 ├── vpp_clients/
@@ -29,6 +32,5 @@ project_root/
 │
 ├── main_application.py
 └── other_modules/
-└── ...
-References:
-https://chatgpt.com/share/6558808f-a438-49ae-8ec7-17ab12260ed6
+└── ...---!>
+
