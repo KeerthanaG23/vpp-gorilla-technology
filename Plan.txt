@@ -1,0 +1,49 @@
+1. Determine VPP Functionality: Identify the primary commands and functionalities you need to expose via the API, such as:
+// VPP is a data plane
+    Getting VPP version
+    Managing interfaces
+    Adding/removing static routes
+    Retrieving BGP neighbors (if VPP supports BGP)--->BGP is part of the control plane
+    Managing OSPF (if VPP supports OSPF)
+
+2. Create Client Classes for VPP: Implement classes to interact with VPP, similar to the FRR client classes.
+
+3. Design Flask Endpoints: Define Flask endpoints that map to the VPP functionalities.
+
+
+Pre requisites:
+
+1. Understand VPP Command Structure
+Firstly, familiarize yourself with the VPP command-line interface (CLI) and the API it exposes. This will help you understand:
+
+How commands are structured (e.g., show, set, add, delete).
+Command syntax and options (e.g., show interface, set interface state).
+
+2. Define the API Endpoints
+Identify the specific functionalities and commands you want to expose through your API. These might include:
+
+Interface configuration (e.g., create, delete, show).
+Routing configuration (e.g., add routes, show routes).
+Statistics retrieval (e.g., interface statistics, packet counts).
+3. Design Classes for API Implementation
+Similar to the FRR example, design Python classes that encapsulate the logic for interacting with VPP:
+
+VPPClientInterface: Handles operations related to VPP interfaces.
+VPPClientRouting: Manages routing operations such as adding routes and showing routing tables.
+VPPClientStatistics: Retrieves statistics from VPP, like interface stats and packet counts.
+4. Implementing the VPPClient Classes
+For each class:
+
+Initialize and configure logging, similar to how it was done in the FRR example.
+Implement methods that construct VPP CLI commands or interact with the VPP API to perform desired operations.
+Ensure error handling and logging are in place to capture any issues during command execution.
+Return results or errors from VPP operations to the calling API endpoints.
+
+5. Implementing API Endpoints
+Integrate these client classes into your backend API framework (e.g., Flask, Django):
+
+Create routes and handlers for each endpoint that correspond to the methods in your VPPClient classes.
+Handle request parameters and data formatting as required by the VPP CLI or API.
+Return responses in a suitable format (e.g., JSON) to the client.
+
+

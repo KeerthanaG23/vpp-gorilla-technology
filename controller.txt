@@ -1,0 +1,19 @@
+# Flask based web API to interact with the VPP software suite
+# VPP is an open source software that provides a fast, scalable, and programmable forwarding plane for the networking industry and is used to build high-performance network applications. 
+# It provides routing protocols and related tools
+# This controller is used to interact with the VPP software suite and perform various operations like adding interfaces, configuring routing protocols etc through REST API calls.
+# REST API? Representational State Transfer (REST) is an architectural style that defines a set of constraints to be used for creating web services. Web Services that conform to the REST architectural style, or RESTful web services, provide interoperability between computer systems on the internet. REST-compliant web services allow requesting systems to access and manipulate textual representations of web resources by using a uniform and predefined set of stateless operations.
+# Web services? A web service is a software system designed to support interoperable machine-to-machine interaction over a network. It has an interface described in a machine-processable format (specifically WSDL). Other systems interact with the web service in a manner prescribed by its description using SOAP messages, typically conveyed using HTTP with an XML serialization in conjunction with other web-related standards.
+
+Understanding VPP software
+VPP (Vector Packet Processing) is a high-performance packet processing stack developed by FD.io (Fast Data - Input/Output), which is an open-source project under the Linux Foundation. VPP itself does not directly support OSPF (Open Shortest Path First) or BGP (Border Gateway Protocol) as routing protocols out of the box. However, VPP can be integrated with other software components or modules that provide these functionalities.
+
+Here’s how it typically works:
+
+1. Integration with Routing Protocols: VPP can be used as a fast data plane component in a larger networking stack. For routing protocols like OSPF or BGP, additional software modules or agents are usually needed to handle the control plane aspects (route calculation, neighbor discovery, protocol state management).
+
+2. FRRouting (FRR): Often, VPP is integrated with FRRouting (FRR), formerly known as Quagga. FRR is an open-source routing software suite that supports OSPF, BGP, and other routing protocols. FRR can run alongside VPP to handle the control plane functionalities, while VPP focuses on high-performance packet forwarding.
+
+3. Integration Architecture: In such architectures, VPP operates as a data plane forwarding engine, while FRR (or another routing software) manages the routing protocols. This separation of data plane and control plane functions allows VPP to focus on packet processing at high speeds while leveraging the robust routing capabilities provided by FRR.
+
+Therefore, while VPP itself does not natively support OSPF or BGP, it is often used in conjunction with other software components like FRRouting to achieve a complete routing solution in high-performance networking environments.
