@@ -1,3 +1,9 @@
+import logging
+from command import VPPCommand
+logging.basicConfig(filename='logs/vpppy.log', level=logging.DEBUG, format='%(asctime)s %(levelname)s %(message)s')
+
+
+
 class IlaClient:
     def __init__(self):
         self.vpp_command = VPPCommand()

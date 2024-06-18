@@ -54,3 +54,9 @@ class VlibApiClient:
     def show_api_ring_stats(self):
         command = 'show api ring-stats'
         return self.vpp_command.run_vpp_command(command)
+
+    def show_pci(self, show_all=False):
+        command = 'show pci'
+        if show_all:
+            command += ' all'
+        return self.vpp_command.run_vpp_command(command)

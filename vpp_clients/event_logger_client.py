@@ -37,3 +37,5 @@ class EventLoggerClient:
     def show_event_logger_info(self):
         command = 'show event-logger'
         return self.run_vpp_command(command)
+
+        

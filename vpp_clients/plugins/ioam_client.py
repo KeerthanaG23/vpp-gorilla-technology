@@ -1,8 +1,9 @@
 import logging
 from command import VPPCommand
-
-# Configure logging
 logging.basicConfig(filename='logs/vpppy.log', level=logging.DEBUG, format='%(asctime)s %(levelname)s %(message)s')
+
+
+
 
 class IoamClient:
     def __init__(self):
