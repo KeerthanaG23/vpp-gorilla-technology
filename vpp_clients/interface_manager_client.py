@@ -10,7 +10,7 @@ class InterfaceManagerClient:
         self.logger = logging.getLogger(__name__)
 
     def run_vpp_command(self, command):
-        return self.vpp_command.run_vppctl_command(command)
+        return self.vpp_command.run_vpp_command(command)
 
     ### Proxy ARP Commands ###
 

@@ -5,7 +5,7 @@ class VPPCommand:
     def __init__(self):
         pass
 
-    def run_vppctl_command(self, command):
+    def run_vpp_command(self, command):
         try:
             logging.info(f"Running command: {command}")
             result = subprocess.run(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, check=True)
