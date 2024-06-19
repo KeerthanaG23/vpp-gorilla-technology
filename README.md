@@ -10,6 +10,18 @@ Backend API development for VPP Commands - Access VPP CTL (CLI of VPP)
 
 3. References:
 https://chatgpt.com/share/6558808f-a438-49ae-8ec7-17ab12260ed6
+
+
+VPP - Vector Packet Processing 
+Use cases -  Streaming multiple websites 
+<ul>
+  <li>
+    Ability to route multiple packets together
+  </li>
+  <li>
+    VPP is a data plane
+  </li>
+</ul>
 <!---
 project_root/
 │
