@@ -8,8 +8,8 @@ Backend API development for VPP Commands - Access VPP CTL (CLI of VPP)
 
 2. https://haryachyy.wordpress.com/2020/04/17/learning-vpp-ospf-routing-protocol/
 
-3. References:
-https://chatgpt.com/share/6558808f-a438-49ae-8ec7-17ab12260ed6
+<!---3. References:
+https://chatgpt.com/share/6558808f-a438-49ae-8ec7-17ab12260ed6--->
 
 
 VPP - Vector Packet Processing 
@@ -19,7 +19,7 @@ Use cases -  Streaming multiple websites
     Ability to route multiple packets together
   </li>
   <li>
-    VPP is a data plane
+    VPP - Data plane
   </li>
 </ul>
 <!---
