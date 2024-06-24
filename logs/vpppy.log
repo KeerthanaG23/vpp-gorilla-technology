@@ -1,0 +1,136 @@
+2024-06-24 09:50:23,962 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-24 09:50:23,962 INFO [33mPress CTRL+C to quit[0m
+2024-06-24 09:50:23,984 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 09:50:24,378 WARNING  * Debugger is active!
+2024-06-24 09:50:24,382 INFO  * Debugger PIN: 136-464-205
+2024-06-24 09:50:40,370 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-24 09:50:40,370 INFO [33mPress CTRL+C to quit[0m
+2024-06-24 09:50:40,378 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 09:50:40,720 WARNING  * Debugger is active!
+2024-06-24 09:50:40,723 INFO  * Debugger PIN: 136-464-205
+2024-06-24 09:51:11,544 INFO 127.0.0.1 - - [24/Jun/2024 09:51:11] "GET / HTTP/1.1" 200 -
+2024-06-24 09:51:11,856 INFO 127.0.0.1 - - [24/Jun/2024 09:51:11] "GET /swaggerui/droid-sans.css HTTP/1.1" 200 -
+2024-06-24 09:51:11,859 INFO 127.0.0.1 - - [24/Jun/2024 09:51:11] "GET /swaggerui/swagger-ui.css HTTP/1.1" 200 -
+2024-06-24 09:51:11,899 INFO 127.0.0.1 - - [24/Jun/2024 09:51:11] "GET /swaggerui/swagger-ui-bundle.js HTTP/1.1" 200 -
+2024-06-24 09:51:12,102 INFO 127.0.0.1 - - [24/Jun/2024 09:51:12] "GET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+2024-06-24 09:51:12,303 INFO 127.0.0.1 - - [24/Jun/2024 09:51:12] "GET /swagger.json HTTP/1.1" 200 -
+2024-06-24 09:51:12,360 INFO 127.0.0.1 - - [24/Jun/2024 09:51:12] "GET /swaggerui/favicon-32x32.png HTTP/1.1" 200 -
+2024-06-24 09:56:23,658 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-24 09:56:23,658 INFO [33mPress CTRL+C to quit[0m
+2024-06-24 09:56:23,668 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 09:56:24,020 WARNING  * Debugger is active!
+2024-06-24 09:56:24,023 INFO  * Debugger PIN: 136-464-205
+2024-06-24 09:56:35,248 INFO 127.0.0.1 - - [24/Jun/2024 09:56:35] "GET / HTTP/1.1" 200 -
+2024-06-24 09:56:35,597 INFO 127.0.0.1 - - [24/Jun/2024 09:56:35] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-06-24 09:56:35,598 INFO 127.0.0.1 - - [24/Jun/2024 09:56:35] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-06-24 09:56:35,599 INFO 127.0.0.1 - - [24/Jun/2024 09:56:35] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2024-06-24 09:56:35,599 INFO 127.0.0.1 - - [24/Jun/2024 09:56:35] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-06-24 09:56:35,910 INFO 127.0.0.1 - - [24/Jun/2024 09:56:35] "GET /swagger.json HTTP/1.1" 200 -
+2024-06-24 09:59:29,724 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 09:59:29,724 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 09:59:30,668 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 10:00:04,368 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-24 10:00:04,368 INFO [33mPress CTRL+C to quit[0m
+2024-06-24 10:00:04,378 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 10:00:04,768 WARNING  * Debugger is active!
+2024-06-24 10:00:04,771 INFO  * Debugger PIN: 136-464-205
+2024-06-24 10:00:10,895 INFO 127.0.0.1 - - [24/Jun/2024 10:00:10] "GET / HTTP/1.1" 200 -
+2024-06-24 10:00:11,231 INFO 127.0.0.1 - - [24/Jun/2024 10:00:11] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2024-06-24 10:00:11,235 INFO 127.0.0.1 - - [24/Jun/2024 10:00:11] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-06-24 10:00:11,236 INFO 127.0.0.1 - - [24/Jun/2024 10:00:11] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-06-24 10:00:11,236 INFO 127.0.0.1 - - [24/Jun/2024 10:00:11] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-06-24 10:00:11,557 INFO 127.0.0.1 - - [24/Jun/2024 10:00:11] "GET /swagger.json HTTP/1.1" 200 -
+2024-06-24 10:01:02,133 INFO  * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\views.py', reloading
+2024-06-24 10:01:03,134 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 10:01:03,670 WARNING  * Debugger is active!
+2024-06-24 10:01:03,673 INFO  * Debugger PIN: 136-464-205
+2024-06-24 10:01:18,265 INFO Running command: quit
+2024-06-24 10:01:18,295 ERROR Command 'quit' failed with error: b"'quit' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n"
+2024-06-24 10:01:18,296 INFO 127.0.0.1 - - [24/Jun/2024 10:01:18] "GET /debug/quit HTTP/1.1" 200 -
+2024-06-24 10:01:45,595 INFO Running command: quit
+2024-06-24 10:01:45,609 ERROR Command 'quit' failed with error: b"'quit' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n"
+2024-06-24 10:01:45,610 INFO 127.0.0.1 - - [24/Jun/2024 10:01:45] "GET /debug/quit HTTP/1.1" 200 -
+2024-06-24 10:01:45,796 INFO 127.0.0.1 - - [24/Jun/2024 10:01:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-06-24 10:02:13,010 INFO Running command: history
+2024-06-24 10:02:13,063 ERROR Command 'history' failed with error: b"'history' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n"
+2024-06-24 10:02:13,064 INFO 127.0.0.1 - - [24/Jun/2024 10:02:13] "GET /debug/history HTTP/1.1" 200 -
+2024-06-24 10:05:50,738 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 10:05:50,738 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 10:05:50,739 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 10:05:50,740 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 10:05:51,629 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 10:06:03,666 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-24 10:06:03,666 INFO [33mPress CTRL+C to quit[0m
+2024-06-24 10:06:03,676 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 10:06:04,084 WARNING  * Debugger is active!
+2024-06-24 10:06:04,087 INFO  * Debugger PIN: 136-464-205
+2024-06-24 10:06:08,063 INFO 127.0.0.1 - - [24/Jun/2024 10:06:08] "GET / HTTP/1.1" 200 -
+2024-06-24 10:06:08,423 INFO 127.0.0.1 - - [24/Jun/2024 10:06:08] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-06-24 10:06:08,427 INFO 127.0.0.1 - - [24/Jun/2024 10:06:08] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-06-24 10:06:08,428 INFO 127.0.0.1 - - [24/Jun/2024 10:06:08] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2024-06-24 10:06:08,428 INFO 127.0.0.1 - - [24/Jun/2024 10:06:08] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-06-24 10:06:08,841 INFO 127.0.0.1 - - [24/Jun/2024 10:06:08] "GET /swagger.json HTTP/1.1" 200 -
+2024-06-24 10:07:14,698 ERROR Error setting terminal ANSI: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+Traceback (most recent call last):
+  File "c:\Users\Keerthana\Documents\GitHub\vpp-gorilla-technology\controller.py", line 75, in post
+    data = request.json
+           ^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\werkzeug\wrappers\request.py", line 558, in json
+    return self.get_json()
+           ^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\werkzeug\wrappers\request.py", line 604, in get_json
+    return self.on_json_loading_failed(None)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\wrappers.py", line 130, in on_json_loading_failed
+    return super().on_json_loading_failed(e)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\werkzeug\wrappers\request.py", line 647, in on_json_loading_failed
+    raise UnsupportedMediaType(
+werkzeug.exceptions.UnsupportedMediaType: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2024-06-24 10:07:14,747 INFO  * Detected change in 'C:\\Python311\\Lib\\site-packages\\werkzeug\\wrappers\\request.py', reloading
+2024-06-24 10:07:14,750 INFO 127.0.0.1 - - [24/Jun/2024 10:07:14] "[35m[1mPOST /debug/terminal/ansi HTTP/1.1[0m" 500 -
+2024-06-24 10:07:15,466 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 10:07:15,916 WARNING  * Debugger is active!
+2024-06-24 10:07:15,919 INFO  * Debugger PIN: 136-464-205
+2024-06-24 10:07:17,986 ERROR Error setting terminal ANSI: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+Traceback (most recent call last):
+  File "c:\Users\Keerthana\Documents\GitHub\vpp-gorilla-technology\controller.py", line 75, in post
+    data = request.json
+           ^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\werkzeug\wrappers\request.py", line 558, in json
+    return self.get_json()
+           ^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\werkzeug\wrappers\request.py", line 604, in get_json
+    return self.on_json_loading_failed(None)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\wrappers.py", line 130, in on_json_loading_failed
+    return super().on_json_loading_failed(e)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\werkzeug\wrappers\request.py", line 647, in on_json_loading_failed
+    raise UnsupportedMediaType(
+werkzeug.exceptions.UnsupportedMediaType: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2024-06-24 10:07:17,987 INFO 127.0.0.1 - - [24/Jun/2024 10:07:17] "[35m[1mPOST /debug/terminal/ansi HTTP/1.1[0m" 500 -
+2024-06-24 10:08:37,721 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 10:08:37,722 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 10:08:37,723 INFO  * Detected change in 'c:\\Users\\Keerthana\\Documents\\GitHub\\vpp-gorilla-technology\\controller.py', reloading
+2024-06-24 10:08:38,276 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 10:28:02,473 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-24 10:28:02,473 INFO [33mPress CTRL+C to quit[0m
+2024-06-24 10:28:02,483 INFO  * Restarting with watchdog (windowsapi)
+2024-06-24 10:28:02,880 WARNING  * Debugger is active!
+2024-06-24 10:28:02,883 INFO  * Debugger PIN: 136-464-205
+2024-06-24 10:28:16,715 INFO 127.0.0.1 - - [24/Jun/2024 10:28:16] "GET / HTTP/1.1" 200 -
+2024-06-24 10:28:16,844 INFO 127.0.0.1 - - [24/Jun/2024 10:28:16] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+2024-06-24 10:28:16,845 INFO 127.0.0.1 - - [24/Jun/2024 10:28:16] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-06-24 10:28:16,845 INFO 127.0.0.1 - - [24/Jun/2024 10:28:16] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-06-24 10:28:16,847 INFO 127.0.0.1 - - [24/Jun/2024 10:28:16] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-06-24 10:28:17,222 INFO 127.0.0.1 - - [24/Jun/2024 10:28:17] "GET /swagger.json HTTP/1.1" 200 -
+2024-06-24 10:30:40,355 INFO Running command: event-logger stop
+2024-06-24 10:30:40,393 ERROR Command 'event-logger stop' failed with error: b"'event-logger' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n"
+2024-06-24 10:30:40,394 INFO 127.0.0.1 - - [24/Jun/2024 10:30:40] "GET /event-logger/stop HTTP/1.1" 200 -
